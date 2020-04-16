@@ -10,7 +10,7 @@ data = []
 temp = ""
 # classify the documents based on whether there is a summary within
 e1 = open("/Users/tommypan/Desktop/txt-" + keywd + "WithSummary.txt", 'a')
-e2 = open("/Users/tommypan/Desktop/txt" + keywd + "WithoutSummary.txt", 'a')
+e2 = open("/Users/tommypan/Desktop/txt-" + keywd + "WithoutSummary.txt", 'a')
 f = open("/Users/tommypan/Desktop/CNKI-" + keywd + ".txt")
 
 for line in f:
